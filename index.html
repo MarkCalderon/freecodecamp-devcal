@@ -4,90 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <title>My Profile</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Product Landing Page</title>
 </head>
 <body>
-<div class="container">
 
-        <div class="row">
-            <div class="col">
-
-            <h1 id="title" class="mt-5">Profile Information</h1>
-            <p id="description">This section contains your personal information.</p>
-
-            <formset>
-                <form id="survey-form" method="">
-                <div class="form-group">
-                    <label for="name" id="name-label">Nickname: </label>
-                    <input type="text" class="form-control" id="name" required placeholder="Type in your name..." />
-                </div>
-                
-                <div class="form-group">
-                    <label for="email" id="email-label">Email Address: </label>
-                    <input type="email" class="form-control" id="email" required placeholder="mail@email.com" />
-                </div>
-
-                <div class="form-group">
-                    <label for="age" id="number-label">Age: </label>
-                    <input type="number" required class="form-control" id="number" min="12" max="70" required placeholder="How old are you..." />
-                </div>
-                
-                <div class="form-group">
-                    <label class="form-check-label" for="learningstyle">Preferred Learning Style: </label>
-
-                    <div class="form-check form-check-inline">
-                        <label class="form-check-label" for="visual"><input class="form-check-input" type="radio" value="visual" name="learningstyle">Visual</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <label class="form-check-label" for="hearing"><input class="form-check-input" type="radio" value="hearing" name="learningstyle">Hearing</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <label class="form-check-label" for="physical"><input class="form-check-input" type="radio" value="physical" name="learningstyle">Physical</label>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                <div class="form-check">
-                    <label for="insights">Type of Interest:</label>
-                    <select id="dropdown" class="form-control" required>
-                        <option value="technology" >Technology</option>
-                        <option value="crafts" >Arts & Craft</option>
-                        <option value="speaker" >Presenter</option>
-                        <option value="education" >Education</option>
-                    </select>
-                </div>
-                </div>
-                
-                <div class="form-group">
-                <label for="form-label">Location: </label>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="Location" id="location1" value="Brunei Muara">
-                        <label class="form-check-label" for="location1">Brunei Muara</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="Location" id="location2" value="Tutong">
-                        <label class="form-check-label" for="location2">Tutong</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" name="Location" id="location3" value="Temburong">
-                        <label class="form-check-label" for="location3">Temburong</label>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="Additional">Additional Information:</label>
-                    <textarea class="form-control" id="add-info" row="3"></textarea>
-                </div>
-
-                    <button id="submit" type="submit" class="btn btn-primary">Save Profile</button>
-                </form>
-            </formset>
+    <div class="wrapper">
+        <div class="content">
+            <div id="header-title"><h1>Welcome to our Product Page</h1></div>
+            <div id="header-body">
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li><a class="nav-item" href="">Home</a></li>
+                        <li><a class="nav-item" href="">Products</a></li>
+                        <li><a class="nav-item" href="">References</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    
-</div>
-<!--Functional Scripts-->
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </div>
+
+    <div class="wrapper">
+                <form id="form" method="https://www.freecodecamp.com/email-submit">
+                    <input type="email" placeholder="Type in your email address..." />
+                    <input type="submit" id="submit" />
+                </form>
+        
+    </div>
 </body>
 </html>

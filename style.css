@@ -1,3 +1,48 @@
 body{
-    background: blue;
+    margin:0;
+    padding:0;
 }
+.wrapper{
+    display:flex;
+    justify-content:center;
+    background-color:blue;
+}
+
+.content{
+    display:block;
+    width:80%;
+    background-color:red;
+}
+
+.col{
+    width: 100%;
+}
+
+.navbar{
+    width:100%;
+}
+
+.nav-list{
+    display:flex;
+    justify-content:flex-start;
+    list-style-type: none;
+}
+
+.nav-list li{
+    padding:1%;
+    margin:1%;
+    width:10%;
+    background-color:pink;
+    height:30px;
+}
+
+.nav-item{
+    width:30px;
+
+    text-decoration: none;
+    color:navy;
+}
+
+
+
+
