@@ -9,26 +9,39 @@
 </head>
 <body>
 
+    <!--Navigation bar-->
+
+    <nav class="navbar">
+            <ul class="nav-list">
+                <li><h1 class="nav-brand">Hello World</h1></li>
+                <li><a class="nav-item" href="">Home</a></li>
+                <li><a class="nav-item" href="">Products</a></li>
+                <li><a class="nav-item" href="">References</a></li>
+            </ul>
+    </nav>
+        
+    <!--End of Navigation bar-->
+
+    <!--Banner and Header-->
     <div class="wrapper">
-        <div class="content">
-            <div id="header-title"><h1>Welcome to our Product Page</h1></div>
-            <div id="header-body">
-                <nav class="navbar">
-                    <ul class="nav-list">
-                        <li><a class="nav-item" href="">Home</a></li>
-                        <li><a class="nav-item" href="">Products</a></li>
-                        <li><a class="nav-item" href="">References</a></li>
-                    </ul>
-                </nav>
+        <div class="col">
+            <div class="content-frame">
+                <h1 class="content-header">Subscribe with us now</h3>
+                <div class="content-body">
+                    <p>And earned 5 months free access to our exclusive items</p>
+                        <form id="form" class="content-submission" method="https://www.freecodecamp.com/email-submit">
+                            <input type="email" class="content-input" placeholder="Enter your email address..." />
+                            <button class="content-submit-button">Send email</button>
+                        </form>
+                </div>
             </div>
         </div>
+
     </div>
+    <!--End of Banner and Header-->
 
     <div class="wrapper">
-                <form id="form" method="https://www.freecodecamp.com/email-submit">
-                    <input type="email" placeholder="Type in your email address..." />
-                    <input type="submit" id="submit" />
-                </form>
+               
         
     </div>
 </body>
