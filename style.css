@@ -20,7 +20,6 @@ body{
 
 .content-frame{
     color:#1D2D44;
-    width:100%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -97,12 +96,12 @@ body{
     display:flex;
     justify-content:center;
     align-items: center;
-    flex-basis:10%;
+    flex-basis:11%;
     height:50px;
 }
 
 .nav-list a{
-    color:#F0EBD8;
+    color:#0d1321;
     font-weight:bold;
     display:flex;
     justify-content:center;
