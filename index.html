@@ -11,28 +11,29 @@
 <body>
 
     <!--Navigation bar-->
-
-    <nav class="navbar">
-            <ul class="nav-list">
-                <li><h1 class="nav-brand">Marketeer&nbsp;<i class="fas fa-shipping-fast"></i></h1></li>
-                <li><a class="nav-item" href="">About</a></li>
-                <li><a class="nav-item" href="">Services</a></li>
-                <li><a class="nav-item" href="">Contact Us</a></li>
-            </ul>
-    </nav>
+    <div id="header">
+        <nav id="nav-bar">
+                <ul class="nav-list">
+                    <li><h1 class="nav-brand">Marketeer&nbsp;<i class="fas fa-shipping-fast"></i></h1></li>
+                    <li><a class="nav-link" href="#subscribe">Subscription</a></li>
+                    <li><a class="nav-link" href="#package">Packages</a></li>
+                    <li><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+        </nav>
+    </div>
         
     <!--End of Navigation bar-->
 
     <!--Banner and Header-->
     <div class="wrapper">
         <div class="col">
-            <div class="content-frame">
+            <div id="subscribe" class="content-frame">
                 <h1 class="content-header">Subscribe with us now!</h1>
                 <div class="content-body">
                     <p>And earned 5 months free access to our exclusive items</p>
                         <form id="form" class="content-submission" method="https://www.freecodecamp.com/email-submit">
-                            <input type="email" class="content-submission-input" placeholder="Enter your email address..." />
-                            <button class="content-submission-button">Send email</button>
+                            <input id="email" type="email" class="content-submission-input" placeholder="Enter your email address..." />
+                            <input type="submit" value="Submit Email" id="submit" class="content-submission-button" />
                         </form>
                 </div>
             </div>
@@ -44,13 +45,22 @@
     <!--Product Content-->
     <div class="wrapper">
         <div class="col">
-            <div class="content-frame">
+            <div id="package" class="content-frame">
                 <div class="gallery-container">
-                    <div class="gallery-header">Choose from one of our packages:</div>
+                    <div class="gallery-header"><h3>Choose from one of our awesome packages</h3></div>
                     <div class="gallery-item-holder">
-                        <div class="gallery-item"><img src="http://placekitten.com/300/300" width="100%" alt="Placekitten" /></div>
-                        <div class="gallery-item"><img src="http://placekitten.com/300/300" width="100%" alt="Placekitten" /></div>
-                        <div class="gallery-item"><img src="http://placekitten.com/300/300" width="100%" alt="Placekitten" /></div>
+                        <div class="gallery-item">
+                            <img src="https://placeimg.com/300/300/3" width="100%" alt="Placekitten" />
+                            <button class="gallery-item-button">Basic Package $100</button>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://placeimg.com/300/300/2" width="100%" alt="Placekitten" />
+                            <button class="gallery-item-button">Regular Package $150</button>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://placeimg.com/300/300/1" width="100%" alt="Placekitten" />
+                            <button class="gallery-item-button">Deluxe Package $233</button>
+                        </div>
                     </div>
                 </div>
             </div>
