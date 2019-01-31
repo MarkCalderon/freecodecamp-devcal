@@ -18,7 +18,10 @@
         <nav id="nav-bar">
             <ul class="nav-list">
                 <li>
-                    <h1 class="nav-brand">Marketeer&nbsp;<i id="header-img" class="fas fa-shipping-fast"></i></h1>
+                    <h1 class="nav-brand">Marketeer&nbsp;
+                        <img id="header-img" width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Suitcase_icon_green.svg" alt="brand" />
+                        <!-- <i id="header-img" class="fas fa-shipping-fast"></i> -->
+                    </h1>
                 </li>
                 <li><a class="nav-link" href="#subscribe">Subscription</a></li>
                 <li><a class="nav-link" href="#package">Packages</a></li>
@@ -36,9 +39,9 @@
                 <h1 class="content-header">Subscribe with us now!</h1>
                 <div class="content-body">
                     <p>And earned 5 months free access to our exclusive items</p>
-                    <form id="form" class="content-submission" method="post" url="https://www.freecodecamp.com/email-submit">
-                        <input id="email" type="email" class="content-submission-input" name="email-submit" placeholder="Enter your email address..." />
-                        <input type="submit" value="Submit Email" id="submit" class="content-submission-button" />
+                    <form id="form" class="content-submission" method="post" action="https://www.freecodecamp.com/email-submit">
+                        <input type="email" id="email" name="email" class="content-submission-input" placeholder="Enter your email address...">
+                        <input type="submit" id="submit" class="content-submission-button" value="Submit Email">
                     </form>
                 </div>
             </div>
@@ -111,5 +114,7 @@
     </div>
     <!--End of Product Content-->
 </body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </html>

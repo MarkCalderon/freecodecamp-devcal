@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.0vw;
+    font-size: 1.8vw;
 }
 
 .wrapper {
@@ -184,7 +184,10 @@ body {
 
 /*Navigation links*/
 #nav-bar {
+    position:fixed;
+    width:100%;
     box-shadow: 0px -1px 8px #1D2D44;
+    background-color:#F0EBD8;
 }
 
 .nav-list {
@@ -232,4 +235,10 @@ h3,
 h4,
 p {
     margin-left: 1%;
+}
+
+@media only screen and (min-width:768px){
+    body{
+        font-size:1.2vw;
+    }
 }
