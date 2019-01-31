@@ -18,11 +18,11 @@
         <nav id="nav-bar">
             <ul class="nav-list">
                 <li>
-                    <h1 class="nav-brand">Marketeer&nbsp;<i class="fas fa-shipping-fast"></i></h1>
+                    <h1 class="nav-brand">Marketeer&nbsp;<i id="header-img" class="fas fa-shipping-fast"></i></h1>
                 </li>
                 <li><a class="nav-link" href="#subscribe">Subscription</a></li>
                 <li><a class="nav-link" href="#package">Packages</a></li>
-                <li><a class="nav-link" href="#contact">Contact Us</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
             </ul>
         </nav>
     </div>
@@ -36,8 +36,8 @@
                 <h1 class="content-header">Subscribe with us now!</h1>
                 <div class="content-body">
                     <p>And earned 5 months free access to our exclusive items</p>
-                    <form id="form" class="content-submission" method="https://www.freecodecamp.com/email-submit">
-                        <input id="email" type="email" class="content-submission-input" placeholder="Enter your email address..." />
+                    <form id="form" class="content-submission" method="post" url="https://www.freecodecamp.com/email-submit">
+                        <input id="email" type="email" class="content-submission-input" name="email-submit" placeholder="Enter your email address..." />
                         <input type="submit" value="Submit Email" id="submit" class="content-submission-button" />
                     </form>
                 </div>
@@ -50,12 +50,22 @@
     <!--Product Information-->
     <div class="wrapper">
         <div class="col">
-            <div id="information" class="content-frame">
+            <div id="services" class="content-frame">
                 <div class="information-container">
-                    <h2 class="information-header">About our services</h2>
+                    <h1 class="information-header">About our services</h1>
                     <ul class="info-list">
-                        <li class="info-item">Our company values is incorporated into our services. One of which we are very proud of which is called the Deluxe package.</li>
-                        <li class="info-item"></li>
+                        <li class="info-item">
+                            <i class="fas fa-power-off fa-5x"></i>
+                            <p>Power to Start</p>
+                        </li>
+                        <li class="info-item">
+                            <i class="fas fa-recycle fa-5x"></i>
+                            <p>Reduce, Reuse and Redeploy</p>
+                        </li>
+                        <li class="info-item">
+                            <i class="fas fa-concierge-bell fa-5x"></i>
+                            <p>Quality of Customer Service</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -63,6 +73,16 @@
     </div>
 
     <!--End of Product Information-->
+
+    <!--Video-->
+    <div class="wrapper">
+        <div class="col">
+            <div class="video-frame">
+            <iframe id="video" width="956" height="538" src="https://www.youtube.com/embed/4W2-3fGpJHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!--End of Video-->
 
 
     <!--Product Content-->

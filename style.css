@@ -129,6 +129,37 @@ body {
     display:flex;
     justify-content: center;
     list-style: none;
+    flex-direction: column;
+}
+
+.info-item{
+    align-items: center;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    padding:1% 1% 1% 1%;
+}
+
+.info-item p{
+    height:100%;
+    display:flex;
+    align-items: center;
+    font-size:1.5vw;
+}
+
+.info-item i{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Video Frame*/
+.video-frame{
+    display:flex;
+    justify-content: center;
+    background-color: #F0EBD8;
 }
 
 /*Navigation bar Styling*/
