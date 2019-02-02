@@ -10,16 +10,6 @@ body {
     display: flex;
 }
 
-.border-r {
-    border-right: 2px solid;
-}
-
-.main-section{
-    padding-top:2.333%;
-    padding-bottom:2.333%;
-    border-bottom:5px solid;
-}
-
 h1,
 h2,
 h3,
@@ -31,12 +21,10 @@ em,
 i,
 u,
 strong,
-div {
-    margin-left: 1.633%;
-    margin-right: 1.633%;
-    color: #4f646f;
-}
+div {}
 
+
+/*Column Specific Widths*/
 .col {
     width: 100%;
 }
@@ -63,101 +51,14 @@ div {
 
 /*Template specific settings*/
 
-.list-container-link {
-    list-style-type: none;
-}
-
-.list-item {
-    margin-bottom: 3.333%;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #4f646f;
-    font-weight: bolder;
-}
-
-.nav-link:hover {
-    color: blue;
-
-}
-
-.header-title {
-    border: 1px solid;
-    border-radius: 10px;
-    text-align: center;
-    margin: 1.333%;
-    background-color: #535657;
-    color: #dee7e7;
-
-}
-
-
-
-
 /*Mobiles Phones*/
 @media only screen and (max-width:600px) {
-
-    #navbar {
-        font-size: 5vw;
-        text-align: center;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    p,
-    b,
-    em,
-    i,
-    u,
-    strong,
-    div {
-        margin:0;
-        padding:0;
-        font-size:3.5vw;
-    }
-
-    .header-title{
-        height:50px;
-        line-height:50px;
-        font-size:4.2vw;
-    }
-
-    .wrapper {
-        display: inline;
-    }
-
-    code, pre{
-        margin:0;
-        margin-left:-10%;
-        padding:0;
-        overflow:auto;
-    }
-
-    col,
-    .col-xs,
-    .col-s,
-    .col-m,
-    .col-l,
-    .col-xl {
-        width: 100%;
-        border: none;
-    }
 }
 
 /*Tablets*/
 @media only screen and (min-width:768px) {
-    body {
-        font-size: 1.9vw;
-    }
 }
 
 /*Computers/Laptops*/
 @media only screen and (min-width:992px) {
-    body {
-        font-size: 1.5vw;
-    }
 }
