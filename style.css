@@ -3,11 +3,67 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3vw;
-    background: #F4FAFF;
+    margin: 0;
+    padding: 0;
 }
 
-.wrapper {
+#brand-id {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1%;
+    width: 19%;
+    height: 50px;
+    font-weight: bold;
+}
+
+.brand-link {
+    text-decoration: none;
+    color: #433E0E;
+}
+
+#navbar {
+    display: flex;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background: #D0C88E;
+    height: 50px;
+    box-shadow: 1px 1px 5px #433E0E;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    height: 50px;
+    width: 80%;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.333%;
+    padding-right: 1.333%;
+    width: 12%;
+    height: 100%;
+}
+
+.navbar-list:hover {
+    background: #EDEEC0;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: #433E0E;
+    font-weight: bold;
+}
+
+
+.wrapper {
+    margin-top: 50px;
 }
 
 h1,
@@ -21,7 +77,12 @@ em,
 i,
 u,
 strong,
-div {}
+div,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
 
 
 /*Column Specific Widths*/
@@ -51,14 +112,90 @@ div {}
 
 /*Template specific settings*/
 
-/*Mobiles Phones*/
-@media only screen and (max-width:600px) {
+#welcome-section {
+    padding-top: 13%;
+    padding-bottom: 13%;
+    min-height: 50%;
+    background: #fafaed;
+    text-align: center;
 }
+
+#My_Projects {
+    min-height: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section > header, header > h3{
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background: #D0C88E;
+    box-shadow: 1px 1px 5px #433E0E;
+}
+
+#project-list {
+    background: #fafaed;
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap;
+    padding-top:2%;
+}
+
+#project-list>li {
+    display: flex;
+    justify-content: center;
+    flex:1 0 0%; 
+    padding:1%;
+}
+
+.project-container{
+    width:300px;
+    height:380px;
+}
+
+.project-container:hover{
+    cursor:pointer;
+}
+
+.project-title{
+    text-align:center;
+}
+
+.project-container>img {
+     width: 300px;
+    height:300px; 
+}
+
+.res-img{
+    max-width:100%;
+    height:auto;
+}
+
+.project-title a:link {
+    text-decoration: none;
+}
+
+#Social_media {}
+
+/*Mobiles Phones*/
+@media only screen and (max-width:600px) {}
 
 /*Tablets*/
 @media only screen and (min-width:768px) {
+    body{
+        font-size:2.0vw;
+    }
+
+    .navbar-list{
+        width:15%;
+    }
 }
 
 /*Computers/Laptops*/
 @media only screen and (min-width:992px) {
+    body {
+        font-size: 1.6vw;
+    }
 }
