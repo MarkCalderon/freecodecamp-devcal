@@ -1,0 +1,29 @@
+.wrapper{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+body{
+    font-size:2vw;
+}
+
+h1{
+    text-align:center;
+}
+
+#welcome-section{
+    display:flex;
+    justify-content: center;
+}
+
+#image{
+    display:block;
+    width:100%;
+    max-width:1000px;
+    height:auto;
+}
+
+ul{
+    list-style-type: none;
+}
