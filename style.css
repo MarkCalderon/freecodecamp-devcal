@@ -28,7 +28,7 @@ body {
     position: fixed;
     width: 100%;
     align-items: center;
-    background: #D0C88E;
+    background: #AEE5D8;
     height: 50px;
     box-shadow: 1px 1px 5px #433E0E;
 }
@@ -113,10 +113,9 @@ li {
 /*Template specific settings*/
 
 #welcome-section {
-    padding-top: 13%;
-    padding-bottom: 13%;
-    min-height: 50%;
-    background: #fafaed;
+    padding-top: 21%;
+    padding-bottom: 21%;
+    background: #d0f4e2;
     text-align: center;
 }
 
@@ -127,7 +126,7 @@ li {
     justify-content: center;
 }
 
-section > header, header > h3{
+section > header, header > h3, header > h4{
     height:50px;
     line-height:50px;
     text-align:center;
@@ -177,7 +176,30 @@ section > header, header > h3{
     text-decoration: none;
 }
 
-#Social_media {}
+#Social_media {
+    min-height:7%;
+    padding-bottom:2%;
+}
+
+.social-container{
+    padding-top:2%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.social-list-item{
+    width:20%;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+}
+
+.social-link{
+    text-decoration: none;
+    font-weight:bold;
+}
+
+
 
 /*Mobiles Phones*/
 @media only screen and (max-width:600px) {}
