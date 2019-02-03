@@ -13,8 +13,8 @@
 
 <body>
     <nav id="navbar">
-        <header id="brand-id"><a class="brand-link" href="#welcome-section"><i class="fas fa-code"></i>&nbsp;DevCalderon</a></header>
-        <ul class="navbar-container">
+        <header id="brand-id"><a class="brand-link" onclick="openMenu()"><i class="fas fa-code"></i>&nbsp;DevCalderon</a></header>
+        <ul id="navbar-setter" class="navbar-container">
             <li class="navbar-list"><a class="nav-link" href="#welcome-section">About Me</a></li>
             <li class="navbar-list"><a class="nav-link" href="#projects">Projects</a></li>
             <li class="navbar-list"><a class="nav-link" href="#Social_media">Social Media</a></li>
@@ -40,28 +40,28 @@
                         <li>
                             <div class="project-container">
                                 <img class="project-image res-img" src="./images/dexterous-site.png" alt="project-image" />
-                                <h4 class="project-title"><a target="_blank" href="https://dexterous-news.firebaseapp.com/">Dexterous
+                                <h4 class="project-title"><a class="project-link" target="_blank" href="https://dexterous-news.firebaseapp.com/">Dexterous
                                         News Site</a></h4>
                             </div>
                         </li>
                         <li>
                             <div class="project-container">
                                 <img class="project-image res-img" src="./images/product-site.png" alt="project-image" />
-                                <h4 class="project-title"><a target="_blank" href="https://codepen.io/MarkCalderon/full/rPjqBg">Product
+                                <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/full/rPjqBg">Product
                                         Landing Page</a></h4>
                             </div>
                         </li>
                         <li>
                             <div class="project-container">
                                 <img class="project-image res-img" src="./images/survey-site.png" alt="project-image" />
-                                <h4 class="project-title"><a target="_blank" href="https://codepen.io/MarkCalderon/pen/maNzBG">Survey
+                                <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/pen/maNzBG">Survey
                                         Form</a></h4>
                             </div>
                         </li>
                         <li>
                             <div class="project-container">
                                 <img class="project-image res-img" src="./images/documentation-site.png" alt="project-image" />
-                                <h4 class="project-title"><a target="_blank" href="https://codepen.io/MarkCalderon/pen/BMRmKO">Documentation
+                                <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/pen/BMRmKO">Documentation
                                         Page</a></h4>
                             </div>
                         </li>
@@ -84,6 +84,7 @@
         </div>
     </div>
     <!--Functional scripts-->
+    <script src="./scripts/action.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
