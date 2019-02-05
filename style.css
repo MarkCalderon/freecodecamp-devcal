@@ -118,10 +118,76 @@ li {
     height:100vh;
     justify-content: center;
     align-items: center;
-    background: #d0f4e2;
+    background:#d0f4e2;
+    text-align: center;
+    flex-direction: column;
+    background:url('https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif') no-repeat fixed center;
+    background-size:100%;
+}
+
+.res-prof{
+    width:250px;
+    max-width:100%;
+    height:auto;
+}
+
+#dream{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background:#9be8c1;
     text-align: center;
     flex-direction: column;
 }
+
+#skills{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background:#cdf3e0;
+    text-align: center;
+    flex-direction: column;
+}
+
+.col-center{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+
+.skill-frame{
+    padding-top:25vh;
+    padding-bottom:25vh;
+}
+
+.skill-container{
+    height:60px;
+    width:33vw;
+    margin-top:1vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.skill-label{
+
+    /* border-radius:10px; */
+    padding:10px;
+    /* background:#2db973; */
+}
+
+.skill-bar{
+    margin-left:1vh;
+    height:6vh;
+}
+
+
+/* section > div{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+} */
 
 #My_Projects {
     min-height: 7vh;

@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DevCalderon</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -23,65 +22,110 @@
 
     <div class="wrapper">
         <div class="col">
-            <section id="welcome-section">
-                <h1>Mark Calderon</h1>
-                <p>I am a Web developer</p>
-            </section>
+            <main>
+                <section id="welcome-section">
+                    <img class="res-prof" src="images/profile-pic.jpg" alt="profile-picture" />
+                    <h1>MarkAGCalderon</h1>
+                    <p>I am a Web developer</p>
+                </section>
 
-            <section id="projects">
-                <div class="col">
+                <section id="dream">
+                    <i class="fas fa-cloud fa-5x"></i>
+                    <h1>Web Engineer</h1>
+                    <p>an dream, an aspiration...</p>
+                </section>
+
+                <section id="skills">
+                    <div class="col">
+                        <header><h4>Technologies</h4></header>
+                    </div>
+                    <div class="col col-center">
+                        <div class="skill-frame">
+                            <div class="skill-container">
+                                <div class="col"><h4 class="skill-label">HTML5</h4></div>
+                                <div class="col"><i class="fab fa-html5 fa-2x ml-s row-name v-align"></i></div>
+                                <div class="col"><progress max="100" value="90" class="skill-bar"></progress></div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="col"><h4 class="skill-label">CSS3</h4></div>
+                                <div class="col"><i class="fab fa-css3-alt fa-2x ml-s row-name v-align"></i></div>
+                                <div class="col"><progress max="100" value="90" class="skill-bar"></progress></div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="col"><h4 class="skill-label">JavaScript</h4></div>
+                                <div class="col"><i class="fab fa-js-square fa-2x ml-s row-name v-align"></i></div>
+                                <div class="col"><progress max="100" value="60" class="skill-bar"></progress></div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="col"><h4 class="skill-label">SQL</h4></div>
+                                <div class="col"><i class="fas fa-database fa-2x ml-s row-name v-align"></i></div>
+                                <div class="col"><progress max="100" value="60" class="skill-bar"></progress></div>
+                            </div>
+                            <div class="skill-container">
+                                <div class="col"><h4 class="skill-label">PHP</h4></div>
+                                <div class="col"><i class="fab fa-php fa-2x ml-s row-name v-align"></i></div>
+                                <div class="col"><progress max="100" value="60" class="skill-bar"></progress></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <div class="col">
+                        <header>
+                            <h4 class="project-tile">My Projects</h4>
+                        </header>
+                    </div>
+
+                    <div class="col">
+                        <ul id="project-list">
+                            <li>
+                                <div class="project-container">
+                                    <img class="project-image res-img" src="./images/dexterous-site.png" alt="project-image" />
+                                    <h4 class="project-title"><a class="project-link" target="_blank" href="https://dexterous-news.firebaseapp.com/">Dexterous
+                                            News Site</a></h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-container">
+                                    <img class="project-image res-img" src="./images/product-site.png" alt="project-image" />
+                                    <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/full/rPjqBg">Product
+                                            Landing Page</a></h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-container">
+                                    <img class="project-image res-img" src="./images/survey-site.png" alt="project-image" />
+                                    <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/pen/maNzBG">Survey
+                                            Form</a></h4>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="project-container">
+                                    <img class="project-image res-img" src="./images/documentation-site.png" alt="project-image" />
+                                    <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/pen/BMRmKO">Documentation
+                                            Page</a></h4>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+
+                <section id="Social_media">
                     <header>
-                        <h4 class="project-tile">My Projects</h4>
+                        <h4>Social Media</h4>
                     </header>
-                </div>
+                    <div class="social-container">
+                        <div class="social-list-item"><a id="profile-link" class="social-link" target="_blank" href="https://github.com/MarkCalderon">Github</a></div>
+                        <div class="social-list-item"><a class="social-link" target="_blank" href="#projects">Projects</a></div>
+                        <div class="social-list-item"><a class="social-link" target="_blank" href="https://www.freecodecamp.org/markcalderon">FreeCodeCamp</a></div>
+                    </div>
 
-                <div class="col">
-                    <ul id="project-list">
-                        <li>
-                            <div class="project-container">
-                                <img class="project-image res-img" src="./images/dexterous-site.png" alt="project-image" />
-                                <h4 class="project-title"><a class="project-link" target="_blank" href="https://dexterous-news.firebaseapp.com/">Dexterous
-                                        News Site</a></h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="project-container">
-                                <img class="project-image res-img" src="./images/product-site.png" alt="project-image" />
-                                <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/full/rPjqBg">Product
-                                        Landing Page</a></h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="project-container">
-                                <img class="project-image res-img" src="./images/survey-site.png" alt="project-image" />
-                                <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/pen/maNzBG">Survey
-                                        Form</a></h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="project-container">
-                                <img class="project-image res-img" src="./images/documentation-site.png" alt="project-image" />
-                                <h4 class="project-title"><a class="project-link" target="_blank" href="https://codepen.io/MarkCalderon/pen/BMRmKO">Documentation
-                                        Page</a></h4>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div>
-            </section>
-
-            <section id="Social_media">
-                <header>
-                    <h4>Social Media</h4>
-                </header>
-                <div class="social-container">
-                    <div class="social-list-item"><a id="profile-link" class="social-link" target="_blank" href="https://github.com/MarkCalderon">Github</a></div>
-                    <div class="social-list-item"><a class="social-link" target="_blank" href="#projects">Projects</a></div>
-                    <div class="social-list-item"><a class="social-link" target="_blank" href="https://www.freecodecamp.org/markcalderon">FreeCodeCamp</a></div>
-                </div>
-
-            </section>
+                </section>
+            </main>    
         </div>
+        
     </div>
     <!--Functional scripts-->
     <script src="./scripts/action.js"></script>
